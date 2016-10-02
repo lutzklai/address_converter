@@ -1,0 +1,56 @@
+body{
+  margin: 0;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ac-container{
+  width: 600px;
+  margin: 25px auto;
+}
+
+.ac-title{
+  margin-bottom: 25px;
+  font-size: 60px;
+  color: #646464;
+  text-align: center;
+}
+
+.ac-input{
+  display: block;
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  font-size: 40px;
+  padding: 10px;
+  text-align: center;
+  color: #3098FF;
+  border: 1px solid #646464;
+
+  ::-webkit-input-placeholder {
+     color: #959595;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+     color: #959595;
+  }
+  ::-moz-placeholder {  /* Firefox 19+ */
+     color: #959595;
+  }
+  :-ms-input-placeholder {
+     color: #959595;
+  }
+}
+.ac-input:focus{
+  outline: none;
+}
+
+.ac-table{
+  width: 100%;
+  font-size: 20px;
+}
+.ac-table td:nth-child(1){
+  width: 1%;
+  padding-right: 15px;
+}

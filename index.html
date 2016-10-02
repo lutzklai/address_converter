@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Converter</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Converter to add/remove colons from addresses">
+    <meta name="keywords" content="Address, Converter">
+    <meta name="author" content="Lutz Lai">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <section class="ac-container">
+      <h1 class="ac-title">
+        Address Converter
+      </h1>
+      <input class="ac-input" id="convert-input" onFocus="this.select()" type="text" placeholder="Paste Address"/>
+      <table class="ac-table">
+        <tr>
+          <td>
+            Type:
+          </td>
+          <td id="table-convert-type">
+            -
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Input:
+          </td>
+          <td id="table-convert-input">
+            -
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Output:
+          </td>
+          <td id="table-convert-output">
+            -
+          </td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
